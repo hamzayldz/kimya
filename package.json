@@ -24,10 +24,10 @@
     },
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
         "test": "react-scripts test",
+        "build": "react-scripts build",
         "eject": "react-scripts eject",
-        "prebuild": "npm run build",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
